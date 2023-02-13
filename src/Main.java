@@ -1,5 +1,9 @@
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        Circle circle = new Circle();
+        circle.area(1);
+        circle.circumference(1);
     }
 }
